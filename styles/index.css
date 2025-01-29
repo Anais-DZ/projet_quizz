@@ -1,0 +1,20 @@
+.containerAccueil {
+    background: url(../image/backgroundPastel.webp);
+}
+
+button, h1, h2 {
+    font-family: 'fredoka';
+}
+
+h1, h2 {
+    color: white;
+    text-shadow:
+      2px 2px 2px #4E3EC8,
+      -2px 2px 2px #4E3EC8,
+      -2px -2px 2px #4E3EC8,
+      2px -2px 2px #4E3EC8;
+}
+
+.containerTheme {
+    background: #c285d179;
+}
