@@ -22,12 +22,13 @@ button, #titreAccueil, #titreTheme {
     color: white;
     margin: 120px 0 0;
     text-align: center;
-    font-size: 62px;
+    font-size: 72px;
     text-shadow:
       2px 2px 1.5px #4E3EC8,
       -2px 2px 1.5px #4E3EC8,
       -2px -2px 1.5px #4E3EC8,
       2px -2px 1.5px #4E3EC8;
+      letter-spacing: 2px;
 }
 
 .etoile {
