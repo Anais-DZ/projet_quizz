@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Outfit:wght@100..900&display=swap');
+body{
+    margin: 0;
+    height: 0px;
+    background-image: url(../image/backgroundPastel.webp);
+}
+
+h1{
+    font-family: "Braah One", serif;
+}
+
+header{
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr 0.5fr;
+    background: #e7d9f2;
+    box-shadow: 0px 10px 15px rgb(246, 244, 244);
+    color: rgba(243, 243, 243, 0.876);
+    font-family: "Outfit", serif;
+
+}
+
+
+.bigBrain{
+    grid-row: 1/span 2;
+    height: 110px;
+}
+
+.svgUtilisateur{
+    height: 45px;
+    transform: translateX(25px);
+
+}
+
+.divUtilisateur{
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: black;
+    margin-right: 25px;
+    h4{
+        letter-spacing: 1px;
+        transform: translateY(5px);
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: small;
+        transform: translateY(-16px);
+    }
+}
+
+
+ul{
+    padding: 0;
+}
+.contenaire{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    align-items: flex-end;
+
+}
+
+.nav{
+    display: flex;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+    
+}
+.nav:hover{
+    background: #e1c1fa;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    transition: 0.6s;
+    
+}
+
+#accueil{
+
+    list-style-type:none;
+
+
+}
+
+#classement{
+
+    list-style-type:none;
+
+
+
+}
+
+#contact{
+
+    list-style-type:none;
+
+
+
+}
+#connexion{
+
+    list-style-type:none;
+
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    /* border-top: 1px solid #ae45ff; */
+    background-color: #e7d9f2;
+    box-shadow: 0px 12px 18px rgba(182, 17, 17, 0.978);
+    font-family: 'outfit';
+    margin-top: 150px;
+}
+
+.logoFooter{
+    grid-column: 1;
+    height: 70px;
+    margin-left: 10px;
+    justify-self: flex-start;
+}
+
+.navFooter{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    justify-content: space-between;
+    li{
+        list-style-type: none;
+        a{
+            text-decoration: none;
+            color: black;
+
+        }
+    }
+    p{
+        margin-top: 0;
+    }
+}
+.ulFooter{
+    display: flex;
+    justify-content: space-between;
+
+}
