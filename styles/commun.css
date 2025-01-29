@@ -53,7 +53,7 @@ header{
 
 
 ul{
-    padding: 0;
+    margin: 0;
 }
 .contenaire{
     display:flex;
@@ -67,14 +67,17 @@ ul{
     display: flex;
     font-size: 1.4em;
     text-decoration: none;
-    color: rgb(21, 21, 21);
+    color: #4E3EC8;
+    padding: 10px 35px;
+    transition: 0.4s;
     
 }
 .nav:hover{
-    background: #e1c1fa;
+    background: #dab3f8;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    transition: 0.6s;
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
     
 }
 
